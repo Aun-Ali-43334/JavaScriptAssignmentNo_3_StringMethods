@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings Methods</title>
+</head>
+<body>
+    
+</body>
+<script>
+// 1. Write a program that takes two user inputs for first and last name using prompt and merge them in a new variable titled fullName. Greet the user using his full name.
+
+//solution: 
+// var firstName = "Aun";
+// var lastName = "Ali";
+// console.log(firstName +" "+ lastName);
+
+
+// 2. Write a program to take a user input about his favorite mobile phone model. Find and display the length of user input in your browser.
+
+//solution:
+// var input = prompt("Enter Name of Your Fav Phone");
+// console.log("Length of Input is : ", input.length);
+
+
+// 3. Write a program to find the index of letter “n” in the word “Pakistani” and display the result in your browser .
+
+//solution:
+// var countryName = "Pakistan";
+// var findIndex = countryName.indexOf("n");
+// document.write("String : "+countryName);
+// document.write("<br /> index of 'n' : "+findIndex);
+
+// 4. Write a program to find the last index of letter “l” in the word “Hello World” and display the result in your browser
+
+// //solution:
+// var word = "Hello World";
+// document.write("string : ",word);
+// var findIndex = word.lastIndexOf("l");
+// document.write("<br /> length of 'l' : ",findIndex);
+
+
+// 5. Write a program to find the character at 3rd index in the word “Pakistani” and display the result in your browser.
+
+//solution:
+
+// var word = "Pakistani";
+// document.write("string : ",word);
+// var charMethod = word.charAt(3);
+// document.write("<br />character at index 3 : ",charMethod);
+
+
+// 6. Repeat Q1 using string concat() method
+
+//solution:
+// var firstName = "Aun";
+// document.write(firstName+"<br />")
+// var lastName = "Ali";
+// document.write(lastName+"<br />")
+// var demo = "Test";
+// document.write("Concate Method : <br />")
+// document.write(firstName.concat(" ",lastName));
+
+
+// 7. Write a program to replace the “Hyder” to “Islam” in the word “Hyderabad” and display the result in your browser.
+
+//solution:
+// var Word1 = "Hyderabad";
+// document.write("var1 = ",Word1+"<br />")
+// var Word2 = "Islamabad";
+// document.write("var2 = ",Word2+"<br />")
+// document.write("Replace Method : "+Word1.replace("Hyder","Islam"));
+
+
+// 8. Write a program to replace all occurrences of “and” in the string with “&” and display the result in your browser. var message = “Ali and Sami are best friends. They play cricket and football together.”;
+
+//solution:
+// var word = "Ali and Sami are best friends. They play cricket and football together.";
+// document.write("Original Word = ",word+"<br />")
+// document.write("<br /> Replace Method Globlally : "+ word.replace(/and/g,"&"))
+
+// 9. Write a program that converts a string “472” to a number 472. Display the values & types in your browser.
+//solution:
+
+//  var numString = "472";
+//  console.log(numString)
+//  //parseInt & parseFloat Method
+// console.log(parseInt(numString));
+
+// 10. Write a program that takes user input. Convert and show the input in capital letters.
+//solutiion:
+//  var word = "peanuts";
+//  console.log(word.toUpperCase());
+ 
+
+//  11. Write a program that takes user input. Convert and show the input in title case.
+//solution:
+
+// var word = "javaScript";
+// console.log(word.slice(0,1).toUpperCase()+word.slice(1).toLowerCase());
+
+
+// 12. Write a program that converts the variable num to
+// string.
+// var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser
+
+//solution:
+// var num = 35.36 ;
+// console.log("Number : ",num);
+// var numToString = num.toString();
+// console.log("String : "+numToString);
+//console.log(numToString.replace(".",""));
+
+
+// 14. You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array. After searching, prompt the user whether the given
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user
+// enters cookie, Cookie, COOKIE or coOkIE, program
+// should inform about its availability. Example:
+
+//solution:
+
+// var arr = ["cake","apple pie","cookie","chips","patties"];
+// var check = false;
+// alert("Bakery Items : "+arr.join(" , "));
+
+// var input = prompt("Enter Your Choice ").toLowerCase();
+// for(var i=0;i<arr.length;i++){
+//     if(input === arr[i]){
+//         document.write(input +" is available at "+i+" index");
+//         check = true;
+//     }
+//     // else if(input == false){
+//     //     document.write("Please Enter Value");
+//     // }
+// }
+//     if(check==false){
+//         document.write("We are Sorry "+input +" is not available in our Bakery")
+//     }
+
+
+
+
+// 16. Write a program to convert the following string to an
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser
+
+//solution:
+// var university = "University of Karachi";
+
+
+
+
+
+// 17. Write a program to display the last character of a user input.
+
+// //solution:
+// var input = prompt("Enter Your Country Name");
+// // document.write(input.slice(-1));
+// document.write(input.charAt(input.length-1));
+// document.write("<br /> Length of "+ input +" is "+ input.length);
+// document.write("<br /> calulated Index Number : ",input.length-1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
