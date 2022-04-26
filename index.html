@@ -112,7 +112,26 @@
 // console.log("Number : ",num);
 // var numToString = num.toString();
 // console.log("String : "+numToString);
-//console.log(numToString.replace(".",""));
+// console.log(numToString.replace(".",""));
+
+
+// var numS = "24";
+// console.log(numS);
+// console.log(parseInt(numS));
+
+//  var numS1 = "24.24";
+//  console.log(numS1);
+//  console.log(Number(numS1));
+
+// ----- MyPractice---------
+// var price = 9.95;
+// console.log("Price : ",price);
+// var tax = 6.5;
+// console.log("Tax : ",tax);
+// var totalPrice = price + ((price*tax)/100);
+// console.log("Total Price : ",totalPrice);
+// console.log("Rounded Value : ",totalPrice.toFixed());
+
 
 
 // 14. You have an array
@@ -145,6 +164,29 @@
 //     }
 
 
+// 15. Write a program to take password as an input from
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // 16. Write a program to convert the following string to an
@@ -154,25 +196,38 @@
 
 //solution:
 // var university = "University of Karachi";
-
-
+// for(var i=0;i<university.length;i++){
+//     document.write(university[i]+"<br />")
+// }
+// console.log("Original Word  : ",university);
+// console.log("Its Length is",university.length,"\n \n");
+// var spl = university.split(" ");
+// console.log("After Split Method : "+spl);
+// console.log("Its Length is",spl.length);
+// console.log();
 
 
 
 // 17. Write a program to display the last character of a user input.
 
-// //solution:
+//solution:
 // var input = prompt("Enter Your Country Name");
-// // document.write(input.slice(-1));
+// document.write(input.slice(-1));
+
+// // -------or--------
 // document.write(input.charAt(input.length-1));
 // document.write("<br /> Length of "+ input +" is "+ input.length);
 // document.write("<br /> calulated Index Number : ",input.length-1);
 
 
+// 18. You have a string “The quick brown fox jumps over the
+// lazy dog”. Write a program to count number of
+// occurrences of word “the” in given string
 
-
-
-
+//solution:
+// var str = "Hello The quick the brown fox jumps over the lazy dog";
+// var cnt = str.match(/the/);
+// console.log(cnt);
 
 
 
